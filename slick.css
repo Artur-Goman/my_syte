@@ -1,0 +1,37 @@
+.slider{
+    position: relative
+}
+/* .slick__item{
+    margin: 0 10px;
+} */
+.slick-track{
+    display: flex;
+    max-width: 1200px;    
+}
+.slick-list{
+    overflow: hidden;
+}
+.slider .slick-arrow{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    font-size: 0;
+    height: 75px;
+    width: 50px;
+    border: none;
+}
+.slider .slick-arrow.slick-prev{
+    left: 20px;
+    background: url(images/prev.png) 0 0 no-repeat;
+}
+.slider .slick-arrow.slick-next{
+    right: 20px;
+    background: url(images/next.png) 0 0 no-repeat;
+}
+
+.slider__item--img{
+    border-radius: 50px;
+}
+.slider__intro {
+    border-radius: 50px;
+}
